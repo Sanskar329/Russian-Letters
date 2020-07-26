@@ -2,14 +2,14 @@
 This project is about classifying russian letters. In total , there are 33 categories of russian letters present in the dataset.
 The goal of this project is to classify images among 33 different russian letter categories.
 
-The code is written in Google Colaboratory Notebook and the dataset can be found at this link : https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters.
+The dataset can be found at this link : https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters.
 The dataset was prepared and uploaded by Olga Belitskaya including total of 14190 images
 
-The Dataset contains three image folders namely : Letter1 , Letter2 , Letter3 and its corresponding csv files.
+The Dataset contains three image folders namely : Letters , Letter2 , Letter3 and its corresponding csv files : letter1.csv , letter2.csv , letter3.csv.
 
 Letters2 Image folders contains 5940 russian letter images , with 180 images for each class and it has no background .
 Letters3 Image folder contains 6600 russian letter images ,  with 200 images for each class and the background for each image is graph type(i.e. filled with many horizontal and vertical lines) .
-Letter Image folders contains 1650 russian letter images, with 50 images for each class and the background for the images are mixed , some are gridded (few horizontal and vertical lines) and some are stripped(Only few horizontal lines).
+Letters Image folders contains 1650 russian letter images, with 50 images for each class and the background for the images are mixed , some are gridded (few horizontal and vertical lines) and some are stripped(Only few horizontal lines).
 Russian alphabets are represented with numeric labels in the csv files.
 
 Letters >> Labels :
@@ -18,14 +18,20 @@ Letters >> Labels :
 у=>21, ф=>22, х=>23, ц=>24, ч=>25, ш=>26, щ=>27, ъ=>28, ы=>29, ь=>30,
 э=>31, ю=>32, я=>33
 
-The Project Notebook is divided into 4 different sections:
+The Project Notebook is divided into 5 sections:
+1.)Importing Monk library
+2.)Importing Kaggle Dataset
+3.)Data parser to ingest, explore, and visualize samples
+4.)Developing different models
+5.)Comparing Models and Visualizing results
 
 
-Firstly, i have prepared the handwritten image data then i have used Convolution Neural Networks and Transfer Learning techniques to build different models for letter classification.
-Then there is comparison between different model and then the best model is further developed.
-The Library used for this project is Monkai library.
+Firstly, i have prepared the handwritten image data then used Convolution Neural Networks and Transfer Learning techniques to build different models for letter classification.The models are then compared and the best model is used for testing samples. 
+The code is written in Google Colaboratory Notebook 
+Monk library is used in this project
+MXNet Gluon API is used as Backend 
 
-#Getting Started 
+#Initial Requirements 
 
 1.)Clone MonkAI repository:
 
@@ -37,7 +43,6 @@ For Colab Notebook,
 ! cd monk_v1/installation/Misc && pip install -r requirements_colab.txt
 
 
-Accuracy using different deep learning Classical Networks :
 
 
 
