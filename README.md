@@ -1,16 +1,17 @@
 # Russian-Letters
-This project is about classifying russian letters using different classical networks. In total , there are 33 categories of russian letters which is present in the dataset.
+This project is about classifying russian letters. In total , there are 33 categories of russian letters present in the dataset.
 The goal of this project is to classify images among 33 different russian letter categories.
 
 The code is written in Google Colaboratory Notebook and the dataset can be found at this link : https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters.
 The dataset was prepared and uploaded by Olga Belitskaya including total of 14190 images
 
 The Dataset contains three image folders namely : Letter1 , Letter2 , Letter3 and its corresponding csv files.
-Letter1 Image folders contains 1650 russian letter images, with 50 images for each class and the background for the images are same which is indicated by 2 horizontal lines.  
-Letter2 Image folders contains 5940 russian letter images , with 180 images for each class and the background for the images is plain white.
-Letter3 Image folder contains 6600 russian letter images ,  with 200 images for each class and the background for each image is grid type (i.e. with multiple vertical and horizontal lines)
 
+Letters2 Image folders contains 5940 russian letter images , with 180 images for each class and it has no background .
+Letters3 Image folder contains 6600 russian letter images ,  with 200 images for each class and the background for each image is graph type(i.e. filled with many horizontal and vertical lines) .
+Letter Image folders contains 1650 russian letter images, with 50 images for each class and the background for the images are mixed , some are gridded (few horizontal and vertical lines) and some are stripped(Only few horizontal lines).
 Russian alphabets are represented with numeric labels in the csv files.
+
 Letters >> Labels :
 а=>1, б=>2, в=>3, г=>4, д=>5, е=>6, ё=>7, ж=>8, з=>9, и=>10,
 й=>11, к=>12, л=>13, м=>14, н=>15, о=>16, п=>17, р=>18, с=>19, т=>20,
