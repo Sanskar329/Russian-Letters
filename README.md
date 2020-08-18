@@ -31,6 +31,17 @@ The code is written in Google Colaboratory Notebook
 Monk library is used in this project
 MXNet Gluon API is used as Backend 
 
+Conclusion:
+we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments.
+
+We got a hard to beat validation performance from our model.
+
+Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
+
+If there are any improvements that we could do in the present model, it will be focusing on improving/increasing the images with graphic type backgrounds. This is because after those images are added and the model is trained, the model doesn't perform as good as earlier.
+These are some areas of work that can be explored to further increase the performance of the model.
+
+
 #Initial Requirements 
 
 1.)Clone MonkAI repository:
