@@ -17,18 +17,18 @@ Letters >> Labels :
 у=>21, ф=>22, х=>23, ц=>24, ч=>25, ш=>26, щ=>27, ъ=>28, ы=>29, ь=>30,
 э=>31, ю=>32, я=>33
 
-The Project Notebook is divided into 4 sections:
+**The Project Notebook is divided into 4 sections:
 1.)Importing Monk library
 2.)Importing Kaggle Dataset
 3.)Data parser to ingest, explore, and visualize samples
-4.)Developing different models
+4.)Developing different models**
 
 Firstly, I have prepared the handwritten image data then used Convolution Neural Networks and Transfer Learning techniques to build different models for letter classification. The models are then compared. 
 The code is written in Google Colaboratory Notebook 
 Monk library is used in this project
 MXNet Gluon API is used as Backend 
 
-Approach:
+**Approach:**
 Approach for training the model:
 
 We have not concatenated the three image folders together and also the corresponding CSV files which could allow us to train the entire dataset together. This is because all three have slightly different types of backgrounds.
@@ -51,7 +51,7 @@ Our Base approach for developing models :
 
 If we would have gone for very dense networks at first ,due to exploding/diminishing gradients it wouldn't perform well and we may end up not considering that option at all.
 
-Conclusion:
+**Conclusion:**
 we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments. Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
 
 Finally, We got a hard to beat validation performance from our DenseNet_121 model.
@@ -60,7 +60,7 @@ If there are any improvements that we could do in the present model, it would be
 These are some areas of work that can be explored to further increase the performance of the model.
 
 
-#Initial Requirements 
+**#Initial Requirements**
 
 1.)Clone MonkAI repository:
 
