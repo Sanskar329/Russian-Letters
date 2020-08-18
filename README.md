@@ -1,7 +1,9 @@
 # Russian-Letters
 This project is about classifying Russian letters. In total, there are 33 categories of Russian letters.
 The goal of this project is to classify images among 33 different Russian letter categories.
+
 The dataset can be found at this link: https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters
+
 It was prepared and uploaded by Olga Belitskaya, includes a total of 14190 images.
 
 The Dataset contains three image folders: Letters, Letter2, Letter3, and its corresponding CSV files: letter1.csv, letter2.csv, letter3.csv.
@@ -9,6 +11,7 @@ The Dataset contains three image folders: Letters, Letter2, Letter3, and its cor
 Letters2 Image folders contains 5940 Russian letter images, with 180 images for each class with no background.
 Letters3 Image folder contains 6600 Russian letter images,  with 200 images for each class with graph type background(i.e. filled with many horizontal and vertical lines).
 Letters Image folders contains 1650 Russian letter images, with 50 images for each class and the backgrounds are mixed, some are gridded (few horizontal and vertical lines) and some are stripped(Only a few horizontal lines).
+
 Russian alphabets are represented with numeric labels in the CSV files.
 
 Letters >> Labels :
@@ -29,9 +32,11 @@ Monk library is used in this project
 MXNet Gluon API is used as Backend 
 
 **Approach:**
+
 Approach for training the model:
 
 We have not concatenated the three image folders together and also the corresponding CSV files which could allow us to train the entire dataset together. This is because all three have slightly different types of backgrounds.
+
 My approach to building a robust model is training the model first by using images that are least affected by the background i.e. second image folder.
 Also, this folder is reasonably big (with a large number of images), so it can train the model effectively at first and we can understand how the model is performing with simpler data.
 
@@ -45,13 +50,17 @@ This approach allows us to figure out which part of the dataset is not being cla
 Our Base approach for developing models :
 
 1.)First, the backend was chosen (MXNet Gluon), then some basic models are selected from the available ones, which can be appropriate for this particular task.
+
 2.)Then less dense networks are chosen among them and their performance is analyzed.
+
 3.)After which the parameters are tuned for the models.
+
 4.)We then obtained optimal parameters for these models and with the same parameters , more dense variants for the same model were   tried . This gives an idea as to which one performs better.
 
 If we would have gone for very dense networks at first ,due to exploding/diminishing gradients it wouldn't perform well and we may end up not considering that option at all.
 
 **Conclusion:**
+
 we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments. Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
 
 Finally, We got a hard to beat validation performance from our DenseNet_121 model.
