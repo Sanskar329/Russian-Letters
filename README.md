@@ -47,3 +47,17 @@ These are some areas of work that can be explored to further increase the perfor
 For Colab Notebook,
 
 ! cd monk_v1/installation/Misc && pip install -r requirements_colab.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
