@@ -26,6 +26,11 @@ Letters >> Labels :
 у=>21, ф=>22, х=>23, ц=>24, ч=>25, ш=>26, щ=>27, ъ=>28, ы=>29, ь=>30,
 э=>31, ю=>32, я=>33
 
+
+![Capture12345](https://user-images.githubusercontent.com/55439912/92220466-e9786f80-ee50-11ea-973c-3326d3f6f2c3.JPG)
+
+
+
 **The Project Notebook is divided into 4 sections:**
 
 **1.)Importing Monk library**
