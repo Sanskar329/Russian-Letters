@@ -30,7 +30,7 @@ Letters >> Labels :
 
 **1.)Importing Monk library**
 
-**2.)Importing Kaggle Dataset**
+**2.)Importing Dataset**
 
 **3.)Data parser to ingest, explore, and visualize samples**
 
