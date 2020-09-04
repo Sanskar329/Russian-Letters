@@ -1,9 +1,12 @@
 # Russian-Letters
 The goal of this project is to classify images among 33 different Russian letter categories.
+
 For indepth explanation of the project visit my blog for this project : 
 https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4df7d1ad8542#270f-83ebe5f745bc
 Which is published at Towards Data science publications.
+
 **About Dataset**
+
 In total, there are 33 categories of Russian letters.
 The dataset can be found at this link: https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters
 
