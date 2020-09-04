@@ -1,16 +1,15 @@
 # Russian-Letters
 The goal of this project is to classify images among 33 different Russian letter categories.
 
-For indepth explanation of the project visit my blog for this project : 
-
-https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4df7d1ad8542#270f-83ebe5f745bc
+For indepth explanation of the project visit my blog for this project 
+    [Right here](https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4df7d1ad8542#270f-83ebe5f745bc)
 
 Published by Towards Data Science Publications.
 
 **About Dataset**
 
 In total, there are 33 categories of Russian letters.
-The dataset can be found at this link: https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters
+The dataset can be found at this [link](https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters)
 
 It was prepared and uploaded by Olga Belitskaya, includes a total of 14190 images.
 
@@ -72,12 +71,6 @@ Our Base approach for developing models :
 If we would have gone for very dense networks at first ,due to exploding/diminishing gradients it wouldn't perform well and we may end up not considering that option at all.
 
 **Conclusion**
-
-
-
-![Capture12345](https://user-images.githubusercontent.com/55439912/92220466-e9786f80-ee50-11ea-973c-3326d3f6f2c3.JPG)
-
-
 
 we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments. Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
 
