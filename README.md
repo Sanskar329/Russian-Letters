@@ -7,7 +7,9 @@ https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4d
 
 Published by Towards Data Science Publications.
 
-**About Dataset**
+##About Dataset
+https://www.flickr.com/photos/fotorus/14396750634/
+
 
 In total, there are 33 categories of Russian letters.
 The dataset can be found at this link: https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters
@@ -43,7 +45,7 @@ The code is written in Google Colaboratory Notebook
 Monk library is used in this project
 MXNet Gluon API is used as Backend 
 
-**Approach:**
+##Approach
 
 Approach for training the model:
 
@@ -71,7 +73,7 @@ Our Base approach for developing models :
 
 If we would have gone for very dense networks at first ,due to exploding/diminishing gradients it wouldn't perform well and we may end up not considering that option at all.
 
-**Conclusion:**
+##Conclusion
 
 we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments. Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
 
@@ -81,7 +83,7 @@ If there are any improvements that we could do in the present model, it would be
 These are some areas of work that can be explored to further increase the performance of the model.
 
 
-**#Initial Requirements**
+##Initial Requirements
 
 1.)Clone MonkAI repository:
 
