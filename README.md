@@ -72,6 +72,9 @@ Our Base approach for developing models :
 If we would have gone for very dense networks at first ,due to exploding/diminishing gradients it wouldn't perform well and we may end up not considering that option at all.
 
 **Conclusion**
+
+
+
 ![Capture12345](https://user-images.githubusercontent.com/55439912/92220466-e9786f80-ee50-11ea-973c-3326d3f6f2c3.JPG)
 
 
