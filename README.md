@@ -7,7 +7,7 @@ https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4d
 
 Published by Towards Data Science Publications.
 
-##About Dataset
+**About Dataset**
 https://www.flickr.com/photos/fotorus/14396750634/
 
 
@@ -32,11 +32,11 @@ Letters >> Labels :
 
 **The Project Notebook is divided into 4 sections:**
 
-**1.)Importing Monk library
+**1.)Importing Monk library**
 
-**2.)Importing Kaggle Dataset
+**2.)Importing Kaggle Dataset**
 
-**3.)Data parser to ingest, explore, and visualize samples
+**3.)Data parser to ingest, explore, and visualize samples**
 
 **4.)Developing different models**
 
@@ -45,7 +45,7 @@ The code is written in Google Colaboratory Notebook
 Monk library is used in this project
 MXNet Gluon API is used as Backend 
 
-##Approach
+**Approach**
 
 Approach for training the model:
 
@@ -83,7 +83,7 @@ If there are any improvements that we could do in the present model, it would be
 These are some areas of work that can be explored to further increase the performance of the model.
 
 
-##Initial Requirements
+**Initial Requirements**
 
 1.)Clone MonkAI repository:
 
