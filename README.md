@@ -74,6 +74,8 @@ If we would have gone for very dense networks at first ,due to exploding/dimini
 **Conclusion**
 ![Capture12345](https://user-images.githubusercontent.com/55439912/92220466-e9786f80-ee50-11ea-973c-3326d3f6f2c3.JPG)
 
+
+
 we have performed Transfer learning using various architectures, created an approach to build a solid classifier. Although there is one thing to be noted here that creating projects and experiments made it very easy to manage and compare experiments. Resnets also performs second best to Densenets while Mobilenets can potentially perform very well if worked on, although it took a lot of training time and space for this task.
 
 Finally, We got a hard to beat validation performance from our DenseNet_121 model.
