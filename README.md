@@ -1,7 +1,10 @@
 # Russian-Letters
-This project is about classifying Russian letters. In total, there are 33 categories of Russian letters.
 The goal of this project is to classify images among 33 different Russian letter categories.
-
+For indepth explanation of the project visit my blog for this project : 
+https://medium.com/@sanskar329/russian-alphabets-classification-using-monk-ai-4df7d1ad8542#270f-83ebe5f745bc
+Which is published at Towards Data science publications.
+**About Dataset**
+In total, there are 33 categories of Russian letters.
 The dataset can be found at this link: https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters
 
 It was prepared and uploaded by Olga Belitskaya, includes a total of 14190 images.
@@ -20,11 +23,15 @@ Letters >> Labels :
 у=>21, ф=>22, х=>23, ц=>24, ч=>25, ш=>26, щ=>27, ъ=>28, ы=>29, ь=>30,
 э=>31, ю=>32, я=>33
 
-**The Project Notebook is divided into 4 sections:
-1.)Importing Monk library
-2.)Importing Kaggle Dataset
-3.)Data parser to ingest, explore, and visualize samples
-4.)Developing different models**
+**The Project Notebook is divided into 4 sections:**
+
+**1.)Importing Monk library
+
+**2.)Importing Kaggle Dataset
+
+**3.)Data parser to ingest, explore, and visualize samples
+
+**4.)Developing different models**
 
 Firstly, I have prepared the handwritten image data then used Convolution Neural Networks and Transfer Learning techniques to build different models for letter classification. The models are then compared. 
 The code is written in Google Colaboratory Notebook 
